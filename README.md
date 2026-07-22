@@ -119,18 +119,23 @@ MVP 永远是 baseline 的投影，不覆盖 baseline。原型返回时，Final 
 
 ## 安装
 
-### 从 skills 仓库安装
+### 使用 skills CLI 安装
 
-如果你已经有统一的 skills 仓库，克隆后把本目录放到对应宿主的 skills 目录：
-
-```powershell
-git clone https://github.com/<你的用户名>/skills.git
-Copy-Item -Recurse .\skills\fragile-question-map "$HOME\.claude\skills\fragile-question-map"
+```bash
+npx skills@latest add Reese0302/fragile-question-map
 ```
 
-Codex 用户可将目标路径换成 `$HOME\.codex\skills\fragile-question-map`。如果本地已有 `F:\agents\skills`，也可以直接把其中的 `fragile-question-map` 目录复制到上述位置。
+在交互式安装器中选择要安装的宿主。安装后重新加载 skills 列表，然后使用 `$fragile-question-map` 调用。
 
-安装后重启宿主，或重新加载 skills 列表，然后使用 `$fragile-question-map` 调用。
+### 推荐配套安装：Grill Me 系列
+
+Question Map 会把需要共同判断的区域交给 `grilling` 做一次一问的深挖。推荐通过 [Matt Pocock's Skills](https://github.com/mattpocock/skills) 安装对应工作流：
+
+```bash
+npx skills@latest add mattpocock/skills
+```
+
+在安装器中选择 `grill-me`（通用入口）和 `grilling`（一次一问原语）；代码项目可再选择 `grill-with-docs`。
 
 ## 最短调用方式
 
