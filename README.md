@@ -45,6 +45,9 @@ Seed / 材料 / 纠正
 
 这个 Skill 的选择不是改造 Grill，而是在它外面加一张薄地图：先批量梳理全局，再只选择一个区域进入“一次一问”。它来自对反馈、使用指引、`wayfinder` 实验和替代方案的比较，而不是把完整设计基线塞进 Grill 本体。
 
+> **与 Matt Pocock's Skills 的关系**
+> `Fragile Question Map` 是面向 [`grilling`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) 工作流的独立扩展：保留“一次一问、用户保留决策权”，并增加并行问题区域、证据与迭代交接的轻量地图。它受 [Matt Pocock's open-source Skills](https://github.com/mattpocock/skills) 启发，并可与其配合使用；并非 Matt Pocock 的官方或关联项目。
+
 目前的结果只是个人使用中的软证据：上述三个痛点有所缓解。一个仍待验证的问题是，`grilling` 的题量变少代表健康聚焦，还是意味着深度被压缩。
 
 ## 它解决什么问题
